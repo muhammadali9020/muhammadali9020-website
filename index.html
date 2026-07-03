@@ -1,0 +1,419 @@
+<!doctype html>
+<html class="scroll-smooth" lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="My portfolio website there i show my skill and projects" />
+  <title>Muhammad-Ali Portfolio Website</title>
+  <link rel="stylesheet" href="./src/output.css" />
+</head>
+
+<body id="section-home" class="overflow-x-hidden bg-[#030812] text-white px-8 py-3 max-w-5xl m-auto">
+  <header>
+    <div id="navbar-container"
+      class="header-item top-0 flex px-8 py-3 h-15 md:h-15 overflow-hidden fixed backdrop-blur-lg z-10 max-w-5xl m-auto right-0 left-0 transition-all duration-200 ease-in-out justify-between">
+      <div class="header-item text-3xl font-bold select-none">
+        <span class="text-blue-500">&lt;</span>Ali/<span class="text-blue-500">&gt;</span>
+      </div>
+      <div>
+        <ul
+          class="flex items-center w-full md:gap-5 gap-2 z-10 backdrop-blur-lg font-medium text-md md:static absolute top-15 flex-col md:flex-row left-10">
+          <li
+            class="nav-items pb-5 hover:border-b-2 border-blue-700 transition-all duration-200 ease-in-out hover:text-blue-500 cursor-pointer">
+            <a class="header-item" href="#section-home">Home</a>
+          </li>
+
+          <li
+            class="nav-items pb-5 hover:border-b-2 border-blue-700 transition-all duration-200 ease-in-out hover:text-blue-500 cursor-pointer">
+            <a class="border-blue-700 header-item" href="#section-about">About</a>
+          </li>
+          <li
+            class="nav-items pb-5 hover:border-b-2 border-blue-700 transition-all duration-200 ease-in-out hover:text-blue-500 cursor-pointer">
+            <a class="header-item" href="#section-projects">Projects</a>
+          </li>
+          <li
+            class="nav-items pb-5 hover:border-b-2 border-blue-700 transition-all duration-200 ease-in-out hover:text-blue-500 cursor-pointer">
+            <a class="header-item" href="#section-skill">Skills</a>
+          </li>
+          <li
+            class="nav-items pb-5 hover:border-b-2 border-blue-700 transition-all duration-200 ease-in-out hover:text-blue-500 cursor-pointer">
+            <a class="header-item" href="#section-contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="gap-3 backdrop-blur-lg absolute md:static flex top-77 left-10">
+
+        <a class="nav-items header-item active:scale-95" target="_blank" href="./Assets/Cv.pdf">
+          <button
+            class="header-item cursor-pointer bg-[#5746f9] bg-linear-to-r to-[#0579ff] shadow-2xl shadow-blue-500 rounded-md py-1.5 px-8">
+            Get CV
+          </button>
+        </a>
+      </div>
+      <div class="md:hidden cursor-pointer">
+        <img id="ham-burger" width="30" src="./Assets/icons/grip.svg" alt="grip icon image" />
+      </div>
+    </div>
+  </header>
+  <p id="toast"
+    class="py-3 px-8 font-bold border-green-400 rounded-md translate-x-85 transition-all duration-300 ease-in-out fixed top-10 z-10 right-5 border bg-[#030812]">
+    📩 Email Send SuccessFully
+  </p>
+  <main>
+    <!-- Home section -->
+    <section>
+      <div class="my-20 flex sm:flex-row flex-col items-center justify-center">
+        <div class="hero-text md:scale-100 scale-90">
+          <p class="hero-text text-3xl">Hi,I`m</p>
+          <h1 class="hero-text text-6xl font-bold">
+            A Frontend
+            <span
+              class="hero-text bg-linear-to-r from-[#048bfa] via-purple-500 to-[#cc49f3] bg-clip-text text-transparent">Developer</span>
+          </h1>
+          <p class="hero-text max-w-sm py-6">
+            I build modern responsive and scalable web applications with clean
+            code intuitive user experiences
+          </p>
+          <div class="hero-text flex flex-wrap gap-2">
+            <a class="header-item" href="#section-projects">
+              <button
+                class="cursor-pointer bg-[#2760f8] hover:bg-transparent hover:outline-1 active:scale-95 py-2 px-8 shadow-2xl duration-200 shadow-blue-600 hover:shadow-lg rounded-md">
+                View Projects
+              </button>
+            </a>
+            <a href="#message-form">
+              <button
+              class="cursor-pointer py-2 px-4 rounded-md hover:shadow-lg duration-200 active:scale-95 hover:bg-[#2760f8] hover:outline-none shadow-md hover:scale-105 hover:shadow-blue-600 shadow-gray-600 bg-transparent outline">
+              Contact Me
+            </button>
+          </a>
+          </div>
+          <div class="flex gap-2 py-4">
+            <a href="https://github.com/muhammadali9020" target="_blank">
+              <img width="30" class="bg-[#111621] rounded-full p-1" src="Assets/icons/social/github-fill.svg"
+                alt="github" />
+            </a>
+
+            <a href="mailto:muhammadali271252@gmail.com">
+              <img width="30" class="bg-[#111621] rounded-full p-1" src="Assets/icons/social/mail-check-fill.svg"
+                alt="mail" />
+            </a>
+          </div>
+        </div>
+        <div class="hero-img sm:w-150 w-full">
+          <img src="Assets/images/Profile Images/hero-section.webp" width="600" alt="main hero image" />
+        </div>
+      </div>
+    </section>
+    <!-- work info section -->
+    <section>
+      <div class="bg-[#0a111d] py-3 flex justify-around items-center flex-wrap gap-20 min-h-30 my-10">
+        <div>
+          <img loading="lazy" width="45" class="bg-green-900 shadow-2xl shadow-green-400 p-1.5 rounded-full my-1"
+            src="Assets/icons/home-3-line.svg" alt="home icon image" />
+          <p><span class="font-bold text-xl">5+ </span>Projects Completed</p>
+        </div>
+        <div>
+          <img loading="lazy" width="45" class="bg-[#20134b] shadow-2xl shadow-green-400 p-1.5 rounded-full my-1"
+            src="Assets/icons/map-pin-user-fill.svg" alt="map icon image" />
+          <p><span class="font-bold text-xl">0+ </span>Clients</p>
+        </div>
+        <div id="section-about">
+          <img loading="lazy" width="45" class="bg-[#061f1f] shadow-2xl shadow-green-400 p-1.5 rounded-full my-1"
+            src="Assets/icons/user-2-line.svg" alt="user icon image" />
+          <p><span class="font-bold text-xl">2+ </span>Years of Experience</p>
+        </div>
+      </div>
+    </section>
+    <!-- About section -->
+    <section>
+      <div class="flex gap-10 sm:flex-row justify-center flex-col items-center">
+        <div class="about-img sm:w-250 max-w-250">
+          <img loading="lazy" width="400" src="Assets/images/Profile Images/work-section.webp" alt="into image" />
+        </div>
+        <div class="about-text max-w-120">
+          <p class="about-text text-[#0e72d9]">About Me</p>
+          <h2 class="about-text text-3xl font-bold my-3">Who Am I?</h2>
+          <p id="section-skill" class="about-text text-sm my-4">
+            I'm Muhammad Ali Frontend Developer with experience in building
+            responsive and interactive web applications I enjoy converting
+            UI/UX designs into high-quality digital experiences using modern
+            technologies. My focus is on writing clean maintainable code and
+            creating fast, user friendly interfaces and UX
+          </p>
+            <a href="#message-form">
+
+          <button
+            class="cursor-pointer py-2 px-4 rounded-md hover:shadow-lg duration-200 active:scale-95 hover:bg-[#2760f8] hover:outline-none shadow-md hover:scale-105 hover:shadow-blue-600 shadow-gray-600 bg-transparent outline">
+            Contact Me
+          </button>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Skill section -->
+    <section>
+      <div class="select-none text-center my-20">
+        <h2 class="text-shadow-md duration-200 text-shadow-blue-500 text-3xl font-bold select-none">
+          <span class="text-blue-500">&lt;</span>Skills/<span class="text-blue-500">&gt;</span>
+        </h2>
+        <div class="skill-box my-10 flex gap-5 flex-wrap max-w-2xl m-auto justify-center">
+          <div class="skill-box">
+            <img
+              class="shadow-lg shadow-blue-500 hover:-translate-y-5 bg-[#0d131e] p-4 hover:scale-115 hover:rotate-360 duration-200 ease-in-out"
+              src="Assets/icons/Tech Icons/html.svg" alt="html icon image" width="100" title="Html 5" />
+            <p class="text-shadow-md duration-200 text-shadow-blue-500 text-sm font-bold select-none">
+              <span class="text-blue-500">&lt;</span>HTML 5/<span class="text-blue-500">&gt;</span>
+            </p>
+          </div>
+
+          <div class="skill-box">
+            <img
+              class="shadow-lg shadow-blue-500 hover:-translate-y-5 bg-[#0d131e] p-4 hover:scale-115 hover:rotate-360 duration-200 ease-in-out"
+              src="Assets/icons/Tech Icons/css.svg" alt="css icon image" width="100" />
+            <p class="text-shadow-md duration-200 text-shadow-blue-500 text-sm font-bold select-none">
+              <span class="text-blue-500">&lt;</span>CSS 3/<span class="text-blue-500">&gt;</span>
+            </p>
+          </div>
+          <div class="skill-box">
+            <img
+              class="shadow-lg shadow-blue-500 hover:-translate-y-5 bg-[#0d131e] p-4 hover:scale-115 hover:rotate-360 duration-200 ease-in-out"
+              src="Assets/icons/Tech Icons/javascript.svg" alt="javascript icon image" width="100" />
+            <p class="text-shadow-md duration-200 text-shadow-blue-500 text-sm font-bold select-none">
+              <span class="text-blue-500">&lt;</span>JS/<span class="text-blue-500">&gt;</span>
+            </p>
+          </div>
+
+          <div class="skill-box">
+            <img
+              class="shadow-lg shadow-blue-500 hover:-translate-y-5 bg-[#0d131e] p-4 hover:scale-115 hover:rotate-360 duration-200 ease-in-out"
+              src="Assets/icons/Tech Icons/react.svg" alt="react icon image" width="100" />
+            <p class="text-shadow-md duration-200 text-shadow-blue-500 text-sm font-bold select-none">
+              <span class="text-blue-500">&lt;</span>React.js/<span class="text-blue-500">&gt;</span>
+            </p>
+          </div>
+
+          <div class="skill-box">
+            <img
+              class="shadow-lg shadow-blue-500 hover:-translate-y-5 bg-[#0d131e] p-4 hover:scale-115 hover:rotate-360 duration-200 ease-in-out"
+              src="Assets/icons/Tech Icons/redux-action.svg" alt="redux icon image" width="100" />
+            <p class="text-shadow-md duration-200 text-shadow-blue-500 text-sm font-bold select-none">
+              <span class="text-blue-500">&lt;</span>Redux ToolKit/<span class="text-blue-500">&gt;</span>
+            </p>
+          </div>
+
+          <div class="skill-box">
+            <img
+              class="shadow-lg shadow-blue-500 hover:-translate-y-5 bg-[#0d131e] p-4 hover:scale-115 hover:rotate-360 duration-200 ease-in-out"
+              src="Assets/icons/Tech Icons/tailwindcss.svg" alt="tailwindcss icon image" width="100" />
+            <p class="text-shadow-md duration-200 text-shadow-blue-500 text-sm font-bold select-none">
+              <span class="text-blue-500">&lt;</span>TailWind/<span class="text-blue-500">&gt;</span>
+            </p>
+          </div>
+
+          <div class="skill-box">
+            <img
+              class="shadow-lg shadow-blue-500 hover:-translate-y-5 bg-[#0d131e] p-4 hover:scale-115 hover:rotate-360 duration-200 ease-in-out"
+              src="Assets/icons/Tech Icons/figma.svg" alt="figma icon image" width="100" />
+            <p class="-shadow-md duration-200 text-shadow-blue-500 text-sm font-bold select-none">
+              <span class="text-blue-500">&lt;</span>Figma/<span class="text-blue-500">&gt;</span>
+            </p>
+          </div>
+
+          <div class="skill-box">
+            <img
+              class="shadow-lg shadow-blue-500 hover:-translate-y-5 bg-[#0d131e] p-4 hover:scale-115 hover:rotate-360 duration-200 ease-in-out"
+              src="Assets/icons/Tech Icons/git.svg" alt="git icon image" width="100" />
+            <p class="text-shadow-md duration-200 text-shadow-blue-500 text-sm font-bold select-none">
+              <span class="text-blue-500">&lt;</span>Git/<span class="text-blue-500">&gt;</span>
+            </p>
+          </div>
+          <div class="skill-box">
+            <img
+              class="shadow-lg shadow-blue-500 hover:-translate-y-5 bg-[#0d131e] p-4 hover:scale-115 hover:rotate-360 duration-200 ease-in-out"
+              src="Assets/icons/Tech Icons/github-fill.svg" alt="github icon image" width="100" />
+            <p class="text-shadow-md duration-200 text-shadow-blue-500 text-sm font-bold select-none">
+              <span class="text-blue-500">&lt;</span>GitHub/<span class="text-blue-500">&gt;</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Projects showcase section -->
+    <section id="section-projects">
+      <div>
+        <div class="mb-5">
+          <p class="text-[#0e72d9]">Featured Projects</p>
+          <h3 class="text-2xl font-bold">My Recent Work</h3>
+        </div>
+      </div>
+      <div class="flex flex-wrap gap-5 justify-center">
+        <div
+          class="project-section-box-1 my-5 rounded-2xl hover:shadow-lg duration-300 hover:-translate-y-5 shadow-sm shadow-blue-600 bg-[#0d131e] max-w-2xs p-4">
+          <img loading="lazy" class="project-section-box-1 w-full rounded-lg"
+            src="Assets/images//Project Images/project_1.png" alt="project 1 image" />
+          <div>
+            <div class="project-section-box-1 my-2">
+              <h4 class="project-section-box-1 text-md text-xl font-bold">
+                E-Commerce App
+              </h4>
+              <span class="project-section-box-1 mt-1 text-md text-blue-500">&lt;</span><span class="text-[#848797]">
+                React.js . RTK . Tailwind </span>/<span class="text-blue-500">&gt;</span>
+            </div>
+            <div class="project-section-box-1 flex">
+              <a href="https://e-commerce-app-frontend-2g8w8xfus-muhammad-ali-271252.vercel.app/" target="_blank">
+                <button
+                  class="cursor-pointer p-1.5 rounded-md hover:shadow-lg duration-200 active:scale-95 hover:bg-[#2760f8] hover:outline-none shadow-md hover:scale-105 hover:shadow-blue-600 shadow-gray-600 mr-2 text-sm bg-[#0c111b] my-4 outline-gray-600 outline flex">
+                  <span>Live Demo </span><img class="p-1" width="25" src="Assets/icons/arrow-right-up-fill.svg"
+                    alt="arrow icon image" />
+                </button>
+              </a>
+              <a href="https://github.com/muhammadali9020/E-commerce-App-Frontend-" target="_blank">
+                <button
+                  class="cursor-pointer p-1.5 rounded-md hover:shadow-lg duration-200 active:scale-95 hover:bg-[#2760f8] hover:outline-none shadow-md hover:scale-105 hover:shadow-blue-600 shadow-gray-600 mr-2 text-sm bg-[#0c111b] my-4 outline-gray-600 outline flex">
+                  <span>Source Code </span><img class="p-1" width="25" src="Assets/icons/social/github-fill.svg"
+                    alt="arrow icon image" />
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="project-section-box-2 my-5 rounded-2xl hover:shadow-lg duration-300 hover:-translate-y-5 shadow-sm shadow-blue-600 bg-[#0d131e] max-w-2xs p-4">
+          <img loading="lazy" class="project-section-box-2 w-full rounded-lg"
+            src="Assets/images/Project Images/project_2.png" alt="project 1 image" />
+          <div>
+            <div class="project-section-box-2 my-2">
+              <h4 class="project-section-box-2 text-md text-xl font-bold">
+                Full Stack Todo App
+              </h4>
+              <p class="project-section-box-2 text-[#848797] mt-1 text-md"></p>
+              <span class="project-section-box-2 mt-1 text-md text-blue-500">&lt;</span><span class="text-[#848797]">
+                React.js` . RTK . Api . Tailwind . Auth </span>/<span class="text-blue-500">&gt;</span>
+            </div>
+            <div class="flex project-section-box-2">
+              <a href="https://frontend-of-todo-api-auth-based.vercel.app/" target="_blank">
+                <button
+                  class="cursor-pointer p-1.5 rounded-md hover:shadow-lg duration-200 active:scale-95 hover:bg-[#2760f8] hover:outline-none shadow-md hover:scale-105 hover:shadow-blue-600 shadow-gray-600 mr-2 text-sm bg-[#0c111b] my-4 outline-gray-600 outline flex">
+                  <span>Live Demo </span><img class="p-1" width="25" src="Assets/icons/arrow-right-up-fill.svg"
+                    alt="arrow icon image" />
+                </button>
+              </a>
+              <button
+                class="cursor-pointer p-1.5 rounded-md hover:shadow-lg duration-200 active:scale-95 hover:bg-[#2760f8] hover:outline-none shadow-md hover:scale-105 hover:shadow-blue-600 shadow-gray-600 mr-2 text-sm bg-[#0c111b] my-4 outline-gray-600 outline flex">
+                <span>Source Code </span><img class="p-1" width="25" src="Assets/icons/social/github-fill.svg"
+                  alt="arrow icon image" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="project-section-box-3 my-5 rounded-2xl hover:shadow-lg duration-300 hover:-translate-y-5 shadow-sm shadow-blue-600 bg-[#0d131e] max-w-2xs p-4">
+          <img loading="lazy" class="project-section-box-3 w-full rounded-lg"
+            src="Assets/images/Project Images/project_3.png" alt="my project 3 image" />
+          <div>
+            <div>
+              <h4 class="project-section-box-3 text-md text-xl font-bold">
+                Portfolio Website
+              </h4>
+              <span class="project-section-box-3 mt-1 text-md text-blue-500">&lt;</span><span class="text-[#848797]">
+                Html . Tailwind . Gsap . JS</span>/<span class="text-blue-500">&gt;</span>
+            </div>
+            <div class="flex project-section-box-3">
+              <a href="url" target="_blank">
+                <button
+                  class="cursor-pointer p-1.5 rounded-md hover:shadow-lg duration-200 active:scale-95 hover:bg-[#2760f8] hover:outline-none shadow-md hover:scale-105 hover:shadow-blue-600 shadow-gray-600 mr-2 text-sm bg-[#0c111b] my-4 outline-gray-600 outline flex">
+                  <span>Live Demo </span><img class="p-1" width="25" src="Assets/icons/arrow-right-up-fill.svg"
+                    alt="arrow icon image" />
+                </button>
+              </a>
+              <a href="url" target="_blank">
+                <button
+                  class="cursor-pointer p-1.5 rounded-md hover:shadow-lg duration-200 active:scale-95 hover:bg-[#2760f8] hover:outline-none shadow-md hover:scale-105 hover:shadow-blue-600 shadow-gray-600 mr-2 text-sm bg-[#0c111b] my-4 outline-gray-600 outline flex">
+                  <span>Source Code </span><img class="p-1" width="25" src="Assets/icons/social/github-fill.svg"
+                    alt="arrow icon image" />
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div id="section-contact" class="bg-[#0a111e] p-6 gap-2 flex md:flex-nowrap flex-wrap justify-center">
+      <div>
+        <p class="footer-section-text text-[#0e72d9]">Get In Touch</p>
+        <h5 class="footer-section-text text-lg font-bold my-2">
+          Let's Work Together
+        </h5>
+        <p class="footer-section-text text-sm max-w-100">
+          Have a project in mind or looking for a frontend developer? Feel
+          free to reach out I'm always open to discussing new opportunities
+          collaborations and creative ideas and Project
+        </p>
+        <div class="footer-section-text my-2">
+          <div class="footer-section-text flex items-center gap-2">
+            <img loading="lazy" width="25" class="footer-section-text bg-[#111621] rounded-full p-1"
+              src="Assets/icons/social/mail-check-fill.svg" alt="mail icon image" />
+            <p class="text-sm">muhammadali271252@gmail.com</p>
+          </div>
+          <div class="footer-section-text flex items-center gap-2 mt-1">
+            <img loading="lazy" width="25" class="bg-[#111621] rounded-full p-1" src="Assets/icons/location-dot.svg"
+              alt="user location icon image" />
+            <p class="footer-section-text text-sm">Pakistan</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <form id="message-form">
+          <div class="footer-section-box flex gap-2 my-5">
+            <input required minlength="5"
+              class="footer-section-box outline p-2 w-full hover:outline-blue-800 transition-all duration-200 hover:outline-2 outline-blue-600 rounded-md placeholder:text-gray-300 placeholder:text-sm"
+              type="text" name="name" placeholder="Your Name" id="client-name-input" />
+
+            <input required minlength="5"
+              class="footer-section-box outline p-2 w-full hover:outline-blue-800 transition-all duration-200 hover:outline-2 outline-blue-600 rounded-md placeholder:text-gray-300 placeholder:text-sm"
+              type="email" name="email" placeholder="Your Email" id="client-email-input" />
+          </div>
+
+          <div>
+            <textarea required minlength="5"
+              class="footer-section-box max-h-30 outline p-2 hover:outline-blue-800 transition-all duration-200 hover:outline-2 outline-blue-600 rounded-md placeholder:text-gray-300 placeholder:text-sm w-full"
+              rows="4" name="message" id="client-message-input" placeholder="Your Message"></textarea>
+          </div>
+
+          <button type="submit"
+            class="flex hover:scale-102 justify-center w-full my-5 bg-[#5746f9] bg-linear-to-r to-[#0579ff] shadow-2xl active:scale-95 cursor-pointer shadow-blue-500 rounded-md py-1.5 px-8">
+            Send Message
+            <img class="p-1" width="25" src="Assets/icons/arrow-right-up-fill.svg" alt="arrow icon" />
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="flex justify-between items-center mt-5">
+      <div>
+        <span class="mt-1 text-lg text-blue-500">&lt;</span><span class="text-[#848797]"> React . Strip API . Tailwind
+        </span>/<span class="text-blue-500">&gt;</span>
+      </div>
+          <div class="flex gap-2 py-4">
+            <a href="https://github.com/muhammadali9020" target="_blank">
+              <img width="30" class="bg-[#111621] rounded-full p-1" src="Assets/icons/social/github-fill.svg"
+                alt="github" />
+            </a>
+
+            <a href="mailto:muhammadali271252@gmail.com">
+              <img width="30" class="bg-[#111621] rounded-full p-1" src="Assets/icons/social/mail-check-fill.svg"
+                alt="mail" />
+            </a>
+          </div>
+    </div>
+  </footer>
+  <script src="./Scripts/gsap.min.js"></script>
+  <script src="./Scripts/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="./Scripts/script.js"></script>
+</body>
+
+</html>
