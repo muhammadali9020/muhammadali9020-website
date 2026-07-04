@@ -13,7 +13,7 @@ navItems.forEach((els) => {
 });
 
 hamBurger.addEventListener("click", classToggle);
-// tost message
+// toast message
 document.addEventListener("DOMContentLoaded", () => {
   const toast = document.getElementById("toast");
 
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => {
       toast.classList.add("translate-x-85");
     }, 2000);
-    console.log(toast.classList);
+    
   };
 });
 
@@ -38,8 +38,8 @@ messageForm.addEventListener("submit", (e) => {
       messageForm,
       "Rr13EpSkb_aB52bsg",
     )
-    .then((e) => Toast(" 📩 Email Send SuccessFully "))
-    .catch((e) => Toast(` 📩 ${e}`));
+    Toast(" 📩 Email Send SuccessFully ")
+
 });
 
 // gsap animation
